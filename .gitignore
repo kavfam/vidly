@@ -1,6 +1,4 @@
 node_modules/
 coverage/
 scrap/
-combined.log
-error.log
-uncaughtExceptions.log
+
