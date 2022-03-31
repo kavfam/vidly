@@ -11,6 +11,7 @@ require("./startup/routes")(app);
 require("./startup/db")();
 require("./startup/config")();
 require("./startup/validation")();
+// could write code here to load production only if in production environment.
 require("./startup/prod")(app);
 
 const port = process.env.PORT || 3000;
